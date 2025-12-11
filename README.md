@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ppllocr
+![Ppllocr](./ppllocr.svg)
 
 ![Logo](https://img.shields.io/badge/Ppllocr-YOLOv11-brightgreen?style=for-the-badge&logo=python)
 
