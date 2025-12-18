@@ -28,6 +28,8 @@ Designed by **liveless** & **zjyjoe** & **colin1112a** as C2027
 
 **尽管如此，具体效果看玄学。**
 
+**[2.0 beta](https://github.com/gitpetyr/ppllocr/releases/tag/v2.0beta) 更新添加了对简单四则运算（即字符集`+-()`）的支持**
+
 ### 目前可以识别字符集
 
 - 数字：`0123456789`
