@@ -33,7 +33,7 @@ Designed by **liveless** & **zjyjoe** & **colin1112a** as C2027
 - 数字：`0123456789`
 - 大写字母：`ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 - 小写字母：`abcdefghijklmnopqrstuvwxyz`
-- 部分特殊字符`*/%@#`
+- 部分特殊字符`/*%@#+-()`
 
 ## 核心特性
 
@@ -128,7 +128,7 @@ Ppllocr 允许你在推理时动态调整阈值，以平衡**召回率**与**准
 ```python
 # conf: 置信度阈值 (默认 0.25)
 # iou:  NMS 重叠阈值 (默认 0.45)
-text = ocr.classification(open("hard_sample.jpg", "rb").read(), conf=0.25, iou=0.45)
+text = ocr.classification(open("hard_sample.jpg", "rb").read(), conf=0.6, iou=0.45)
 ```
 
 ## 贡献者
